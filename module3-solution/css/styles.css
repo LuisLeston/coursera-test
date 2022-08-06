@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Verdana', sans-serif;
+}
+
+#header-nav {
+  background-color: #DADADA;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comic Sans MS', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle{
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+#nav-list a{
+  text-align: center;
+  font-size: 1.1em;
+  background-color: #fff;
+}
+
+#nav-list li{
+  border: 1.7px solid black;
+
+  font-size: 1em;
+}
+
+#dropdown ul{
+  border: 1.7px solid black;
+}
+
+#nav-list{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a:hover{
+  background-color: #DADADA;
+}
+
+
+/*ending nav*/
+
+#title{
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+/* main content */
+.section{
+  background-color: #DADADA;
+  padding: 10px 10px 10px 10px;;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.row section:nth-child(2), .row section:nth-child(3){
+  margin-top: 50px;
+}
+
+#box-title1, #box-title2, #box-title3{
+  font-size: 1.2em; 
+  padding-bottom: 6px;
+  margin-top: -7px;
+  font-weight: bold;
+}
+
+.text1{
+  font-size: .9em;
+  padding: 0 15px 5px 15px;
+}
+
+@media (max-width: 767px){
+  .section{
+    margin: 20px 40px 20px 40px;
+  }
+}
